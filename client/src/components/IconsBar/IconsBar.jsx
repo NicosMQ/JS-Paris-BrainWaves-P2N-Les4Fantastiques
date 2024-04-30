@@ -21,7 +21,7 @@ function IconsBar({filterHeroesByOccupation}) {
         </button>
         <button className="cours" type="button" onClick={() => filterHeroesByOccupation(["professor","student","teacher"])}>
         <PiStudentBold/>
-        <p className="text"Cours</p>
+        <p className="text">Cours</p>
         </button>
         <button className="outils" type="button" onClick={() => filterHeroesByOccupation(["electronics technician","architect","construction"])}>
         <HiOutlineWrenchScrewdriver/>
