@@ -17,11 +17,11 @@ function IconsBar({filterHeroesByOccupation}) {
         </button>
         <button className="moving" type="button" onClick={() => filterHeroesByOccupation(["titan","destroyer","retired"])}>
         <BsBoxSeam/>
-        <p className="text">Demenagement</p>
+        <p className="text">Manutention</p>
         </button>
         <button className="cours" type="button" onClick={() => filterHeroesByOccupation(["professor","student","teacher"])}>
         <PiStudentBold/>
-        <p className="text">Aide aux devoirs</p>
+        <p className="text"Cours</p>
         </button>
         <button className="outils" type="button" onClick={() => filterHeroesByOccupation(["electronics technician","architect","construction"])}>
         <HiOutlineWrenchScrewdriver/>
